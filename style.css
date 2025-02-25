@@ -10,6 +10,9 @@ ul {
     margin:0;
     padding:0;
 }
+a {
+text-decoration: none;
+}
 /*Нормализация стилей */
 @font-face {
     font-family:'TT Lakes';
@@ -107,6 +110,7 @@ ul {
     padding-right:140px;
     margin-left:24px;
     justify-content: space-between;
+    margin-bottom:16px;
 }
 
 .menu__button-tele {
@@ -133,6 +137,9 @@ ul {
     letter-spacing:-0.2px;
     color:#1B1C21;
     margin-left:24px;
+
+}
+.menu__email-wrapper{
     margin-bottom:12px;
 }
 .menu__number {
@@ -141,7 +148,10 @@ ul {
     line-height: 32px;
     font-size:24px;
     color:#1B1C21;
-    margin: 0 0 40px 24px; 
+    margin-left: 24px; 
+}
+.menu__number-wrapper{
+    margin-bottom:40px;
 }
 .menu__language {
     display:flex;
